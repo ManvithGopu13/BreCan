@@ -109,7 +109,7 @@ def evaluate_accuracy(data_dir):
 # Main function
 if __name__ == '__main__':
     # Example: Predict on a single image
-    image_path = 'data/benign/benign (16)_mask.png'  # Replace with the path to your image
+    image_path = 'data/malignant/malignant (44).png'  # Replace with the path to your image
     print(f'Prediction: {predict(image_path)}')
 
     # Example: Evaluate accuracy on a dataset
